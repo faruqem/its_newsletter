@@ -1,3 +1,3 @@
-##ITS DevOps News Letter
+## ITS DevOps News Letter
 
-An internal news letter for Ballet
+An internal news letter for Ballet IT
