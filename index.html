@@ -22,7 +22,7 @@
                 text-transform: capitalize; 
             }
             
-            h1>.sub-heading {
+            .sub-heading {
                 color: #767676;
                 font-size: 25px;
             }
@@ -147,10 +147,10 @@
     </head>
     <body id="wrapper">
         <p class="date">March 17, 2018</p>
-        <h1>DEV <span class="sub-heading">ITS <span title="test">DevOps</span> Newsletter</span></h1>
+        <h1>DEV <span class="sub-heading">ITS <span title="Development and Operations">DevOps</span> Newsletter - National Ballet of Canada</span></h1>
         <hr>
         <h2>Prelude</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        <p>Welcome to ITS DevOps newsletter. The purpose of this newsletter to share information on our departmental activities, what new projects we are working on. We will also look into diffrent technology implemntaion from a Ballet end user's perspective. One of the pre-condition of new technology implementaion is understanding and acceptance of the technology throuout the organization.</p>
         <blockquote><strong>Dev</strong> generally refers to a developer, a programmer, or a software engineer.
         </blockquote>
         <blockquote><strong>DevOps</strong> "is a set of practices that automates the processes between software development and IT teams, in order that they can build, test, and release software faster and more reliably. The concept of DevOps is founded on building a culture of collaboration between teams that historically functioned in relative siloes."<i> - atlassian.com.</i> <a href="https://en.wikipedia.org/wiki/DevOps">Read More...</a></blockquote>
@@ -159,7 +159,19 @@
         <div class="videowrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/134g5Vw7mXk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <h2>Tutorial: Writing SQL</h2>
+        <h2>Tutorial: Writing SQL for Tessitura List Manager</h2>
+        <p>Our first tutorial is for the Ballet Tessitura users who feels limited by the currently available option to pull a list of customer from the Tessitura database for further data extraction. In this tutorial we will show you:</p>
+        <ol>
+            <li>What is SQL and some basic SQL syntax to pull data.</li>
+            <li>How to leverage the Tessitura built-in environment to write and execute SQL code.</li>
+            <li>Some code snippet that you can simply copy and paste to create a new list.</li>
+        </ol>
+        <h3>1. What is SQL and some basic SQL syntax to pull data.</h3>
+        <p>SQL stands for Structured Query Language. This is a database programming language for relational database like Microsoft SQL Server, My SQL, Oracle etc. For Tessitura we use Microsoft SQL Server. A sample query to pull a list of customer no with last name like "Kain":</p>
         <code>SELECT customer_no FROM t_customer WHERE lname LIKE('%Kain%')</code>
+        <br><br><br><br><br>
+        <hr>
+        <p>Please contact us at <strong><i>appteam@national.ballet.ca</i></strong> or find "Software and Applications" from the outlook addressbook if you have any comment or question. You feedback is highly appreciated.</p>
+        <hr>
     </body>
 </html>
